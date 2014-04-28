@@ -1,4 +1,5 @@
 set nocompatible
+set paste
 " Syntax highlighting on!
 syntax on
 " Some stuff about reading file types and indentations
@@ -6,7 +7,8 @@ filetype plugin indent on
 " Pathogen bundle loader
 runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
-colorscheme Tomorrow-Night-Eighties
+" colorscheme Tomorrow-Night-Eighties
+colorscheme molokai
 " Line numbers
 set number
 " Current line highlighting
@@ -20,15 +22,6 @@ noremap   <Up>     <NOP>
 noremap   <Down>   <NOP>
 noremap   <Left>   <NOP>
 noremap   <Right>  <NOP>
-set paste
-" key mapping for google search
-function! Google()
-  call inputsave()
-  let searchterm = input('Google: ')
-  call inputrestore()
-  return searchterm
-endfunction
-map © <ESC>:! /usr/bin/open -a "/Applications/Google Chrome.app" 'https://google.com/search?q=<C-R>=Google()<CR>'<CR><CR>
 " generic
 set encoding=utf-8
 " show the command line
