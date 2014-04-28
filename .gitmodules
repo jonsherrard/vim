@@ -25,3 +25,12 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git@github.com:tpope/vim-markdown.git
+[submodule "bundle/vim-pathogen-tomorrow-theme"]
+	path = bundle/vim-pathogen-tomorrow-theme
+	url = git@github.com:coryf/vim-pathogen-tomorrow-theme.git
+[submodule "bundle/bundle/command-t"]
+	path = bundle/bundle/command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git@github.com:ervandew/supertab.git
