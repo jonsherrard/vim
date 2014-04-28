@@ -52,3 +52,6 @@
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = git@github.com:tomasr/molokai.git
+[submodule "bundle/jshint.vim"]
+	path = bundle/jshint.vim
+	url = git@github.com:wookiehangover/jshint.vim.git
